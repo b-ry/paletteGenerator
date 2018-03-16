@@ -1,0 +1,12 @@
+#colorGradient {
+  border: 1px solid #eeeeee;
+  height: 102px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.splotch {
+  height: 100px;
+  width: 10vw;
+  margin: 1px;
+}
