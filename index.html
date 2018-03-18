@@ -5,10 +5,16 @@
     <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
-    
-    <input id="color" type="text" placeholder="hex#" value=""/>
-    <input id="splotchNum" type="number" placeholder="10" value=""/>
-    <button onclick="color()">Get Palette</button>
+    <div class="control">
+      <div class="color">
+        <label for="color">Color</label>
+        <input id="color" onfocus="color()" type="text" placeholder="hex#" value="#eb0000"/>
+      </div>
+      <div class="numColors">
+        <label for="numColors">Number of Colors</label>
+        <input id="splotchNum" onfocus="color()" type="number" placeholder="10" value="10"/>
+      </div>
+    </div>
   
     <div id="colorGradient">
       
